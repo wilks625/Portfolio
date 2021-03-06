@@ -6,43 +6,72 @@
 
 body {
   background-color: lightgray;
-  color: whitesmoke;
+  color: white;
 }
 
 header {
+  color: white;
+  display: inline-block;
+  display: flex;
   padding: 40px;
   font-size: 60px;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: darkslategray;
+  background-color: rgb(36, 34, 34);
+}
+#headshot {
+height: 175px;
+display: inline;
+flex: wrap;
+
 }
 
 header nav {
   display: inline;
-  padding-top: 0px;
-  margin-right: 20px;
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
   color: lightgray;
-  line-height: 0%;
 }
 
 header nav ul {
   list-style-type: none;
+  flex: wrap;
+  margin-right: auto;
+  line-height: 110%;
 }
 
 header nav ul li {
   display: inline-block;
-  margin: left 20px;
-  margin-right: 30px;
+  margin-right: 10px;
+  padding-left: 60px;
   color: whitesmoke;
+  flex: wrap
+  
 }
 a:hover, a:focus {
   text-decoration:underline
 } /*try to get this to make the words underline */
 
-#button:active {
-  opacity: 10%;
+.nav-button {
+  opacity: 100%;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex: wrap;
+  display: inline-block
+}
+
+section h2 p {
+  display: inline;
+}
+
+.section-title {
+  margin-left: 2.5%;
+  display: flex;
+  float: left;
+  flex: wrap;
 }
 
 .banner {
@@ -56,42 +85,78 @@ a:hover, a:focus {
 }
 
 main {
-  font-size: 50px;
   display: inline-block;
-  flex-wrap: wrap;
+  flex: wrap;
+  
 }
 
 main h2 {
   font-size: 50px;
   padding-top: 15px;
-  display: inline-block;
+  display: flex;
   color: rgb(85, 82, 82);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex: wrap;
 }
 main p {
   font-size: 25px;
   display: inline-block;
   color: black;
-  margin-right: 100px;
+  margin-right: 350px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-bottom: 50px;
-  line-height: normal;
+  padding-bottom: 100px;
+  flex: wrap;
+  
+}
+.content-right {
+  display: flex;
+  padding-left: 20%;
+  float: left;
+  padding-right:10%;
+  flex-wrap: wrap;
+}
+#contact-information {
+  float: left;
 }
 
-.contact-info {
-  style:underline;
+.about-me .work .contact-info {
+  display: flex;
+  display: inline-block;
+  flex: wrap;
+}
+
+#work{
+  float:left;
 }
 
 .img{
+  opacity: 80%;
+  display: inline;
+  justify-content: space-around;
   flex: wrap;
   width: 400px;
   height: 250px;
   border: 10px solid grey;
+  
+}
+
+#card-1 {
+  width: 800px;
+  height: 450px
+  
 }
 
 .img:hover {
-  opacity: 50%;
-  color: blue;
-  background-color: transparent;
-  text-decoration: underline;
+  opacity: 100%;
+}
+
+aside h2 {
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  #card-1 {
+    width: 100%;
+    height:100%;
+  }
 }
