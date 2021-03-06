@@ -16,3 +16,5 @@ This was a challenging HW assignment and I learned a lot from it.
 
 Github: https://github.com/wilks625
 Github Repo: https://wilks625.github.io/hw-week-2/
+
+websiteScreenShot.png
