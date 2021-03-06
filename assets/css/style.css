@@ -5,29 +5,27 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: lightgray; 
   color: white;
 }
 
-header {
+header { /*styling for header of the page */
   color: white;
   display: inline-block;
   display: flex;
   padding: 40px;
   font-size: 60px;
-  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(36, 34, 34);
 }
-#headshot {
+#headshot { /*styling for headshot photo */
 height: 175px;
 display: inline;
 flex: wrap;
-
 }
 
 header nav {
-  display: inline;
+  display: inline; 
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
@@ -46,12 +44,9 @@ header nav ul li {
   margin-right: 10px;
   padding-left: 60px;
   color: whitesmoke;
-  flex: wrap
+  flex: wrap /*added wrap to allow button text to wrap to next line as page shrinks horizontally */
   
 }
-a:hover, a:focus {
-  text-decoration:underline
-} /*try to get this to make the words underline */
 
 .nav-button {
   opacity: 100%;
@@ -80,7 +75,6 @@ section h2 p {
   height: auto;
   width: auto;
   margin:auto;
-  display:block;
   text-align: center;
 }
 
@@ -104,11 +98,11 @@ main p {
   color: black;
   margin-right: 350px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   flex: wrap;
   
 }
-.content-right {
+.content-right { /*class tag for content to be displayed off to the right */
   display: flex;
   padding-left: 20%;
   float: left;
@@ -121,8 +115,7 @@ main p {
 
 .about-me .work .contact-info {
   display: flex;
-  display: inline-block;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 
 #work{
@@ -130,7 +123,7 @@ main p {
 }
 
 .img{
-  opacity: 80%;
+  opacity: 80%; /*adds an effect to make the image less visible */
   display: inline;
   justify-content: space-around;
   flex: wrap;
@@ -141,17 +134,17 @@ main p {
 }
 
 #card-1 {
-  width: 800px;
+  width: 800px; /* styled 1st card independently to increase its size*/
   height: 450px
   
 }
 
 .img:hover {
-  opacity: 100%;
+  opacity: 100%; /*increases image back to 100% opacity as user hovers over image */
 }
 
 aside h2 {
-  display: inline-block;
+  display: block;
 }
 
 @media screen and (max-width: 800px) {

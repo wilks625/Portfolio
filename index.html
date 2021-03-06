@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css"> <!--linked my two css files-->
   <title>Portfolio</title>
 
 </head>
 
 <body>
   <header>
-    <h1>Stephen Yacas</h1>
+    <h1>Stephen Yacas</h1> <!--My name in the header-->
     <img src="./assets/images/headshot-cropped.jpeg" id="headshot"></img>
     <nav>
       <ul>
-        <li class = "nav-button">
+        <li class = "nav-button"> <!--these buttons scroll down to corresponding sections of the webpage-->
           <a href="#about-me">About Me</a>
         </li>
         <li class = "nav-button">
@@ -26,41 +26,39 @@
           <a href="#contact-info">Contact Info</a>
         </li>
         <li class = "nav-button">
-          <a href="#resume">Resume</a>
+          <a href="#resume">Resume</a> <!--this link currently does not work-->
         </li>
       </ul>
     </nav>
   </header>
 
   <article>
-      <img src="./assets/images/1499.jpg" class="banner" alt="banner image">
+      <img src="./assets/images/1499.jpg" class="banner" alt="banner image"> <!--banner image-->
   </article>
 
   <main>
     
     <section id="about-me" class="about-me"> 
-      <aside class = "section-title">
+      <aside class = "section-title"> <!--used aside tag to place title to the left-->
       <h2>About Me</h2>
        </aside>
-      <p class="content-right">I am currently enrolled as a student of the University of Richmond coding bootcamp to learn to become a full-stack web developer. I am excited to continue to learn and eventually start my career as a software engineer...add stuff here . 
+      <p class="content-right"> <!--used content-right class for information I wanted to move to the right-->
+        My name is Stephen and I currently work in the healthcare field as a Physical Therapist Assistant. And while I love what I do, I have always been curious about the tech industry.
       </p>
+        
       <p class="content-right">
-        VCU alum, go RAMS, corgi dad, 
+        I am now a student at the University of Richmond coding bootcamp where I will learn to become a full-stack web developer. I am enjoying the new challenge and am excited to continue to learn and eventually, one day, start my career as a software engineer.
       </p>
 
     </section>
 
     <section id="work" class="work">
-      <aside class = "section-title">
+      <aside class = "section-title"> <!--used aside tag to place title to the left-->
         <h2 id="work-left">Work</h2>
       </aside>
-      <p class="content-right">
+      <p class="content-right"> <!--used content-right class for information I wanted to move to the right-->
         <a href="https://wilks625.github.io/hw-week-1/">
-          <img src="./assets/images/Horiseon.png" class="img" id="card-1" alt="Horiseon webpage screenshot"></a>
-
-        <a href="https://wilks625.github.io/hw-week-1/">
-        <img src="./assets/images/todo.jpg_fit=scale" class="img" alt="image of todo list">
-        </a>
+          <img src="./assets/images/Horiseon.png" class="img" id="card-1" alt="Horiseon webpage screenshot"></a> <!--this is the only img in work that has an id so that I could style it independently from the rest, to make it bigger-->
 
         <a href="https://wilks625.github.io/prework-about-me/">
         <img src="./assets/images/aboutme.png" class="img"></a>
@@ -68,21 +66,22 @@
         <a href="https://scratch.mit.edu/projects/477729419">
         <img src="./assets/images/TacoCat.png" class="img" alt="TacoCat scratch game screenshot">
         </a>
+
+        <a href="https://wilks625.github.io/hw-week-1/">
+          <img src="./assets/images/todo.jpg_fit=scale" class="img" alt="image of todo list">
+          </a> <!--This currently links to the Horiseon page, but i plan to one day create a todo list maker-->
       </p>
     </section>
     <section id="contact-info" class="contact-info">
-      <aside class = "section-title">
-      <h2>Contact</h2>
-      <h2>Information</h2>
+      <aside class = "section-title"> <!--used aside tag to place title to the left-->
+      <h2>Contact Information</h2>
     </aside>
-      <p class="content-right" id="contact-information">
+      <p class="content-right" id="contact-information"> <!--used content-right class for information I wanted to move to the right-->
         (703)408-2249
         syacas@gmail.com
         <a href="https://github.com/wilks625">Github</a>
       </p>
     </section>
   </main>
-
-
 </body>
 </html>
