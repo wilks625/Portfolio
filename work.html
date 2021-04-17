@@ -9,57 +9,77 @@
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <title>Portfolio</title>
+
 </head>
 
 <body>
-  <header class="subnav-hero-section">
-    <a href="index.html"></a>
-    <h1 class="subnav-hero-headline">
-    <a href="index.html"></a>Stephen Yacas</a>
-    </h1>
-    <ul class="subnav-hero-subnav">
-      <li><a href="index.html">About Me</a></li>
-      <li><a href="work.html">Work</a></li>
-      <li><a href="contact-info.html">Contact Info</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <!-- <li><a href="#" class="is-active">Carpe Diem!</a></li>
-      <li><a target="_blank" href="https://zurb.com/responsive">Just do it!</a></li> -->
-    </ul>
-  </header>
+    <header class="subnav-hero-section">
+        <a href="index.html"></a>
+        <h1 class="subnav-hero-headline">
+        <a href="index.html"></a>Stephen Yacas</a>
+        </h1>
+        <ul class="subnav-hero-subnav">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact-info.html">Contact Info</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <!-- <li><a href="#" class="is-active">Carpe Diem!</a></li>
+          <li><a target="_blank" href="https://zurb.com/responsive">Just do it!</a></li> -->
+        </ul>
+      </header>
+
+      <section id="work-title" class="work">
+        <aside class = "section-title"> 
+          <h2 id=>Work</h2>
+        </aside>
+        <p class="content-right"> 
+          <a href="https://wilks625.github.io/hw-week-1/">
+            <img src="./assets/images/Horiseon.png" class="img" id="card-1" alt="Horiseon webpage screenshot"></a> 
+    
+          <a href="https://wilks625.github.io/prework-about-me/">
+          <img src="./assets/images/aboutme.png" class="img"></a>
+    
+          <a href="https://scratch.mit.edu/projects/477729419">
+          <img src="./assets/images/TacoCat.png" class="img" alt="TacoCat scratch game screenshot">
+          </a>
+    
+          <a href="https://wilks625.github.io/hw-week-1/">
+            <img src="./assets/images/todo.jpg_fit=scale" class="img" alt="image of todo list">
+            </a> 
+        </p>
+      </section>
 
 
-  <div class="work-feature-block row grid-x grid-padding-x">
-    <div class="columns medium-4"id="headshot-card">
-      <!-- <img class="work-feature-block-image" src="https://placehold.it/600x400"/> -->
-      <img class="work-feature-block-image" src="./assets/images/headshot-cropped.jpeg" id="headshot"></img>
-    </div>
-    <div id="about-me" class="row medium-5">
-      <h2 class="work-feature-block-header">About Me</h2>
-      <p>My name is Stephen and I currently work in the healthcare field as a Physical Therapist Assistant. And while I love what I do, I have always been curious about the tech industry. </p> 
-       <p>I am now a student at the University of Richmond coding bootcamp where I will learn to become a full-stack web developer. I am enjoying the new challenge and am excited to continue to learn and eventually, one day, start my career as a software engineer.</p>
-    </div>
-  </div>
 
+      <div class="card card-product-hover">
+        <img src="./assets/images/Horiseon.png" class="img" id="card-1" alt="Horiseon webpage screenshot" />
+        <div class="card-product-hover-icons">
+          <a href="#"><i class="fa fa-shopping-cart">Code</i></a>
+          <a href="#"><i class="fa fa-star-o"></i></a>
+          <a href="#"><i class="fa fa-share-alt"></i></a>
+        </div>
+        <div class="card-product-hover-details">
+          <h3 class="card-product-hover-title">Legacy Foundation Tee</h3>
+          <span class="card-product-hover-price">$15.00</span>
+        </div>
+      </div>
 
-
-  <div class="rounded-social-buttons">
-    <a class="social-button facebook" value="Open Window"
-    onclick="window.open('https://www.facebook.com/stephen.yacas')"></a>
-
-    <a class="social-button linkedin" value="Open Window"
-    onclick="window.open('https://www.linkedin.com/in/stephen-yacas-bb5557113/')"></a>
-
-    <a class="social-button github" value="Open Window"
-    onclick="window.open('https://github.com/wilks625')"></a>
-  </div>
-  
-
-  
-
-
+      <div class="image-hover-wrapper">
+        <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+        <a href="#"><img src="./assets/images/Horiseon.png" class="img" id="card-1" alt="Horiseon webpage screenshot" />
+          <span class="image-hover-wrapper-reveal">
+            <p>Check it<br><i class="fa fa-link" aria-hidden="true"></i></p>
+          </span>
+        </a>
+      </div>
+      
+      
 
 
  
+
+
+  
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="assets.js/script.js"></script>
